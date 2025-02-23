@@ -310,7 +310,7 @@ void streaming_run(void){
   while (1) {
     REG_BG0HOFS = ++nframes;
     unsigned short j = (REG_KEYINPUT & 0x3ff) ^ 0x3ff;
-    unsigned short cmd = j & (~last_joy | KEY_R | KEY_L);
+    unsigned short cmd = j & (~last_joy | KEY_A | KEY_B);
     signed char *dst_pos = double_buffers[cur_buffer];
 
     last_joy = j;
@@ -333,7 +333,7 @@ void streaming_run(void){
       locked ^= KEY_START;
     }
 
-    if(cmd & KEY_L) {
+    if(cmd & KEY_B) {
       src_pos -= 33 * 50;
       if(src_pos < src) {
         cmd |= KEY_LEFT;
@@ -341,7 +341,7 @@ void streaming_run(void){
     }
 
     // R button: Skip forward
-    if(cmd & KEY_R) {
+    if(cmd & KEY_A) {
       src_pos += 33 * 50;
     }
 
