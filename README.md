@@ -11,6 +11,7 @@ unbuildable.  This repository ports the application to a more
 recent version of devkitARM.
 
 [GSM Player for GBA]: https://pineight.com/gba/gsm/
+recommended song name length is 24 character
 
 
 Building a ROM
