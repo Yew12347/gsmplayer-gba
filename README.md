@@ -20,6 +20,7 @@ Building a ROM
        make build/allnewgsm-bare_mb.gba
        padbin 256 build/allnewgsm-bare_mb.gba
 
+or just run go.bat
 2. Convert audio files to GSM at 18157 Hz (a nonstandard rate; see
    `docs/lying_to_sox.txt` for how to force this in SoX and FFmpeg)
 3. Pack them into a single GBFS file using `gbfs` included with
@@ -34,8 +35,8 @@ To control the player:
 
 - Left: Previous track
 - Right: Next track
-- L: Seek backward
-- R: Seek forward
+- A: Seek backward
+- B: Seek forward
 - Select: Lock other keys
 - Start: Pause or resume
 
