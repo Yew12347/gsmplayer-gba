@@ -83,8 +83,8 @@ void hud_init(void)
 
   hud_cls();
   hud_wline(1, "GSM Player for GBA");
-  hud_wline(2, "Copr. 2004, 2019");
-  hud_wline(3, "Damian Yerrick");
+  hud_wline(2, "Copr. 2004, 2025");
+  hud_wline(3, "Damian Yerrick, yewgamer");
   hud_wline(4, "and Toast contributors");
   hud_wline(5, "(See TOAST-COPYRIGHT.txt)");
 

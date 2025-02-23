@@ -1,0 +1,6 @@
+@echo off
+echo Converting .wav files to .gsm format...
+for %%F in (wavs\*.wav) do sox "%%F" -r 18157 -c 1 "gsms\%%~nF.gsm"
+echo Building ROM...
+.\gbfs gsmsongs.gbfs gsms\*
+make
