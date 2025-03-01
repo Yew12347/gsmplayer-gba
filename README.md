@@ -34,8 +34,8 @@ To control the player:
 
 - Left: Previous track
 - Right: Next track
-- L: Seek backward
-- R: Seek forward
+- B: Seek backward
+- A: Seek forward
 - Select: Lock other keys
 - Start: Pause or resume
 
