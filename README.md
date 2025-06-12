@@ -8,7 +8,7 @@ and this is a fork of that
 
 Notes
 --------------
-thanks to [git2358/gsmplayer-gba](https://github.com/git2358/gsmplayer-gba) i just modified go.bat a little bit more moking it download ffmpeg only 1 time insted of everytime (done this on school pc :D)
+thanks to [git2358/gsmplayer-gba](https://github.com/git2358/gsmplayer-gba) i just modified my build.bat a little bit more moking it download ffmpeg only 1 time insted of everytime (done this on school pc :D)
 and this project wont get a lot of update because i dont have a lot of time but i will try my best to maintain it
 
 Building a ROM
