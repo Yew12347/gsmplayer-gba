@@ -13,7 +13,7 @@ and this project wont get a lot of update because i dont have a lot of time but 
 
 Building a ROM
 --------------
-just put a song into the folder for it type and then run go.bat if you cant do it the version you dont have to build is on the way
+just put a song into the folder for it type and then run build.bat if you cant do it the version you dont have to build is on the way
 
 Controls
 --------
