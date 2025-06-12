@@ -3,8 +3,11 @@ GSM Player
 
 From mid-2004 to mid-2019, [GSM Player for GBA] went unmaintained,
 and changes to popular GBA homebrew toolchains rendered it
-unbuildable. but https://github.com/pinobatch/gsmplayer-gba ported this to newer version of devkitarm
+unbuildable. but [pinobatch/gsmplayer-gba](https://github.com/pinobatch/gsmplayer-gba) ported this to newer version of devkitarm
 and this is a fork of that
+
+Things i wanted to say
+--------------
 
 Building a ROM
 --------------
