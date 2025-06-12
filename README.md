@@ -1,9 +1,11 @@
 GSM Player
 ==========
+
 From mid-2004 to mid-2019, [GSM Player for GBA] went unmaintained,
 and changes to popular GBA homebrew toolchains rendered it
 unbuildable. but https://github.com/pinobatch/gsmplayer-gba ported this to newer version of devkitarm
 and this is a fork of that
+
 Building a ROM
 --------------
 just put a song into the folder for it type and then run go.bat if you cant do it the version you dont have to build is on the way
