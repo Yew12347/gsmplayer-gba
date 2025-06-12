@@ -1,32 +1,12 @@
 GSM Player
 ==========
-In mid-2004, I ported the GSM RPE-LTP (also called GSM Full Rate)
-audio codec, which has been used in mobile phones, to the Game Boy
-Advance.  Now you can use your GBA as a portable music player, with
-up to 150 minutes of Good Sounding Music on a 256 Mbit flash cart. 
-
 From mid-2004 to mid-2019, [GSM Player for GBA] went unmaintained,
 and changes to popular GBA homebrew toolchains rendered it
-unbuildable.  This repository ports the application to a more
-recent version of devkitARM.
-
-[GSM Player for GBA]: https://pineight.com/gba/gsm/
-
-
+unbuildable. but https://github.com/pinobatch/gsmplayer-gba ported this to newer version of devkitarm
+and this is a fork of that
 Building a ROM
 --------------
-1. If building from source:
-
-       make build/allnewgsm-bare_mb.gba
-       padbin 256 build/allnewgsm-bare_mb.gba
-
-2. Convert audio files to GSM at 18157 Hz (a nonstandard rate; see
-   `docs/lying_to_sox.txt` for how to force this in SoX and FFmpeg)
-3. Pack them into a single GBFS file using `gbfs` included with
-   devkitARM tools: `gbfs gsmsongs.gbfs *.gsm`
-4. Concatenate the player and the songs.
-    - On Windows: `copy /b build\allnewgsm-bare_mb.gba+gsmsongs.gbfs allnewgsm.gba`
-    - On UNIX: `cat build/allnewgsm-bare_mb.gba gsmsongs.gbfs > allnewgsm.gba`
+just put a song into the folder for it type and then run go.bat if you cant do it the version you dont have to build is on the way
 
 Controls
 --------
